@@ -36,10 +36,13 @@ group :test, :development do
 	gem 'capybara'
 	gem 'database_cleaner'
 	gem 'selenium-webdriver'
+	gem 'teaspoon'
+    gem 'phantomjs'
 end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'angularjs-rails'
+gem 'angular-rails-templates'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
